@@ -37,7 +37,7 @@ jobs:
 
     - name: Python print
       run: |
-        python -c "print('Running python')"
+        .\pythonarm64.${{ matrix.python-version }}\tools\python.exe -c "print('Running python')"
 
   success:
     permissions:
